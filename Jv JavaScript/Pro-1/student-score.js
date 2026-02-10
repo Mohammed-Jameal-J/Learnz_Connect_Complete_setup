@@ -35,9 +35,9 @@ function findStudent(name) {
 }
 
 function failStudent() {
-    return students.some((student)=>{
+    return students.some((student)=>
         student.score < 35
-    })
+    )
 }
 
 
