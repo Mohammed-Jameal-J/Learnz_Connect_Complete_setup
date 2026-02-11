@@ -63,3 +63,34 @@ addEmploye(3,"Priya","TL",8000)
 
 
 getAllEmployees();
+console.log("\n");
+
+console.log(getEmployeeDetail(2));
+
+console.log("\n");
+
+console.log("update employee Details");
+
+updateEmployee(2,{salary:55000})
+
+console.log("After Update");
+getAllEmployees()
+
+console.log("\n");
+
+console.log("Freezing Employee");
+
+freezeEmployee(2)
+employeeDB[2].salary=600000 
+
+
+
+console.log("Freezing Funchtion Called");
+getAllEmployees()
+
+console.log("Sealing Now");
+sealEmployee(1)
+employeeDB[3].salary=10
+
+
+console.log(getEmployeeDetail(3));
