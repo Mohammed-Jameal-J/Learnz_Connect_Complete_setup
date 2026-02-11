@@ -91,6 +91,7 @@ getAllEmployees()
 console.log("Sealing Now");
 sealEmployee(1)
 employeeDB[3].salary=10
+employeeDB[1].age=30
 
 
 console.log(getEmployeeDetail(3));
